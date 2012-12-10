@@ -1,0 +1,30 @@
+@import "bootstrap_site_css";
+
+/* Base class
+------------------------- */
+body {
+  background: url(../images/light_wool.png) repeat center center;
+}
+
+/* Change the docs' brand */
+.brand-new {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: black;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
+  display: block;
+  padding: 10px 20px 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.brand-new:hover {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+  color: #ffffff;
+}
